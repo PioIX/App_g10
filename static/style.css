@@ -20,6 +20,10 @@ body {
     height:100vh;
 }
 
+.inicio{
+height: 20px;
+}
+
 .circles{
     position: absolute;
     top: 0;
@@ -230,9 +234,23 @@ position: relative;
     font-size: 15px;
     color: black;
   }
+
+  
   
 #game-container {
     display: none;
+}
+
+#game-container .boton{
+    color: white;
+    font-size: 30px;
+    background: transparent; 
+    border: 0px;
+    transition: all 0.3s ease;
+}
+
+#game-container button:hover {
+    transform: scale(1.2);
 }
 
 .game {
