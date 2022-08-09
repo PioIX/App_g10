@@ -113,7 +113,11 @@ close.addEventListener('click', () => {
             resetGame();
         }
     };
-
+    
+    function validar() {
+        document.getElementById("myForm").reset();
+        return false;
+    }
     
     const gameSetup = (dimentions) => {
         maxRows = dimentions;
@@ -291,3 +295,4 @@ close.addEventListener('click', () => {
             }
         }
     });
+
